@@ -1,0 +1,98 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-image:url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: right 47vw bottom 40vh, left 45vw top 50vh;
+  background-repeat: no-repeat;
+  background-color: var(--dark-cyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 17.5em;
+  height: 18.75em;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.pattern {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.foto-victor {
+  width: 4.9em;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: solid white 4px;
+  
+}
+.name {
+  color: var(--very-dark-blue);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 1.1em;
+  position: absolute;
+  top: 50%;
+}
+.age {
+  color: var(--dark-gray);
+  font-weight: 400;
+}
+.city {
+  color: var(--dark-gray);
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  top: 60%;
+}
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  border-top: 1px solid var(--dark-gray);
+  margin-top: 1.8em;
+}
+.info {
+  text-align: center;
+  width: max-content;
+}
+.number {
+  margin: 0;
+  color: var(--very-dark-blue);
+  font-size: 14px;
+  font-weight: bolder;
+  padding-top: 18px;
+
+}
+.theme {
+  font-size: 9px;
+  font-weight: 400;
+  color: var(--dark-gray);
+  margin-top: 3px;
+}
+#left-item {
+  margin-left: 1.7em;
+}
+#right-item {
+  margin-right: 1.7em;
+}
+
